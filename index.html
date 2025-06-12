@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tap The Dot</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add manifest for PWA capabilities -->
+    <link rel="manifest" href="manifest.json">
+    <!-- iOS support -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Tap The Dot">
+    <link rel="apple-touch-icon" href="icons/icon-152.png">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>Tap The Dot</h1>
+            <div class="score-container">Score: <span id="score">0</span></div>
+        </div>
+        <div class="game-area">
+            <div id="dot"></div>
+        </div>
+        <div class="controls">
+            <button id="start-btn">Start Game</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+    <script src="app.js"></script>
+</body>
+</html> 
